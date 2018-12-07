@@ -4,9 +4,10 @@
     },
     "collections": {
         "Desserts": {
-            "recipes": [
-                "potato-candy"
-            ]
+            "recipes": [{
+                "key": "potato-candy",
+                "label": "Potato Candy"
+            }]
         }
     }
 }
