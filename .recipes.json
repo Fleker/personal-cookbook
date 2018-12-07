@@ -1,3 +1,12 @@
 {
-  "potato": "potato.recipe.json"
+    "recipes": {
+        "potato-candy": "potato.recipe.json",
+    },
+    "collections": {
+        "Desserts": {
+            "recipes": [
+                "potato-candy"
+            ]
+        }
+    }
 }
