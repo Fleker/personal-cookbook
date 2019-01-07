@@ -1,13 +1,23 @@
 {
     "recipes": {
-        "potato-candy": "potato.recipe.json"
+        "potato-candy": "potato.recipe.json",
+        "jello-shots": "jelloshot.recipe.json",
     },
     "collections": {
         "Desserts": {
             "recipes": [{
                 "key": "potato-candy",
                 "label": "Potato Candy"
+            }, {
+                "key": "jello-shots",
+                "label": "Jello Shots"
             }]
-        }
+        },
+        "Party": {
+            "recipes": [{
+                "key": "jello-shots",
+                "label": "Jello Shots"
+            }]
+        } 
     }
 }
