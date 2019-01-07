@@ -1,0 +1,77 @@
+{
+	"author": "Nick Felker",
+	"recipe": "Jello Shots",
+	"spec": "v0.1.0",
+	"tags": "jello shots, mixed drinks",
+	"servings": 8,
+	"prelude": {
+		"description": "Jello shots are a fun party treat for adults"
+	},
+	"steps": [{
+		"description": "Boil water",
+		"ingredients": [{
+			"item": "hot water",
+      "unit": "cup",
+			"amount": 1
+		}],
+		"equipment": [{
+			"item": "Tea kettle"
+		}],
+		"prepTime": {
+			"amount": 5,
+			"unit": "minutes"
+		},
+		"cookTime": {
+			"amount": 5
+		}
+	}, {
+		"description": "Mix one cup of hot water with gelatin mix until the powder is completely dissolved",
+		"ingredients": [{
+			"item": "Jello mix",
+			"amount": 3,
+			"unit": "ounces"
+		}],
+		"equipment": [{
+			"item": "Mixing bowl"
+		}, {
+			"item": "Spoon"
+		}],
+		"prepTime": {
+			"amount": 2,
+			"unit": "minutes"
+		}
+	}, {
+		"description": "Add vodka and cold water, stirring to mix",
+		"ingredients": [{
+			"item": "Cold water",
+			"amount": 0.5,
+			"unit": "cup"
+		}, {
+      "item": "Vodka",
+      "amount": 0.5,
+      "unit": "cup"
+    }],
+		"prepTime": {
+			"amount": 1,
+			"unit": "minute"
+		}
+	}, {
+    "description": "Pour mixture into individual cups",
+    "equipment": [{
+      "item": "Dixie cups"
+    }],
+    "prepTime": {
+      "amount": 1,
+      "unit": "minute"
+    }
+  }, {
+    "description": "Refrigerate until mixture cools",
+    "equipment": [{
+      "item": "Refrigerator"
+    }],
+    "prepTime": {
+      "amount": 2,
+      "unit": "hours"
+    } 
+  }]
+}
