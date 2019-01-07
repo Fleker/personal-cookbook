@@ -1,7 +1,7 @@
 {
     "recipes": {
         "potato-candy": "potato.recipe.json",
-        "jello-shots": "jelloshot.recipe.json",
+        "jello-shots": "jelloshot.recipe.json"
     },
     "collections": {
         "Desserts": {
