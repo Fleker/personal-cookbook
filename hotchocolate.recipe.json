@@ -1,0 +1,54 @@
+{
+	"author": "Nick Felker",
+	"recipe": "Hot Chocolate",
+	"spec": "v0.1.0",
+	"tags": "hot chocolate, beverage",
+	"servings": 8,
+	"prelude": {
+		"description": "Hot chocolate is hot and made of chocolate"
+	},
+	"steps": [{
+		"description": "Boil water in a tea kettle",
+		"ingredients": [{
+			"item": "hot water",
+      "unit": "cup",
+			"amount": 1
+		}],
+		"equipment": [{
+			"item": "Tea kettle"
+		}],
+		"prepTime": {
+			"amount": 5,
+			"unit": "minutes"
+		},
+		"cookTime": {
+			"amount": 5
+		}
+	}, {
+		"description": "Pour the mix into a mug and then put the hot water in it",
+		"ingredients": [{
+			"item": "Hot chocolate mix",
+			"amount": 3,
+			"unit": "ounces"
+		}],
+		"equipment": [{
+			"item": "Mug"
+		}, {
+			"item": "Tea kettle"
+		}],
+		"prepTime": {
+			"amount": 1,
+			"unit": "minutes"
+		}
+	}, {
+		"description": "Stir the mix with the hot chocolate to blend",
+		"ingredients": [],
+    "equipment": [{
+      "item": "spoon"
+    }]
+		"prepTime": {
+			"amount": 1,
+			"unit": "minute"
+		}
+	}]
+}
