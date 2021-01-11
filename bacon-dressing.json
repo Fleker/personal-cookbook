@@ -1,0 +1,63 @@
+{
+	"author": "Felker family",
+	"recipe": "Bacon Dressing",
+	"spec": "v0.1.0",
+	"tags": "dressing, salad, bacon",
+	"servings": 6,
+	"prelude": {
+		"description": "A sweet and salty dressing for salad."
+	},
+	"steps": [{
+		"description": "Cook the bacon until well-done. It should be fairly crunchy.",
+		"ingredients": [{
+			"item": "Bacon",
+			"amount": 6,
+			"unit": ""
+		}],
+		"equipment": [{
+			"item": "Pan"
+		}, {
+			"item": "Stove"
+		}],
+		"prepTime": {
+			"amount": 0,
+			"unit": "minutes"
+		},
+		"cookTime": {
+			"amount": 8,
+			"unit": "minutes"
+		}
+	}, {
+		"description": "Break egg and mix ingredients in a mixing bowl until they are thoroughly mixed.",
+		"ingredients": [{
+			"item": "Egg",
+			"amount": 1,
+			"unit": ""
+		}, {
+			"item": "Flour",
+			"amount": 1,
+			"unit": "tablespoon"
+		}, {
+			"item": "Sugar",
+			"amount": 3,
+			"unit": "tablespoon"
+		}, {
+			"item": "Vinegar",
+			"amount": 4,
+			"unit": "tablespoon"
+		}],
+		"equipment": [{
+			"item": "Mixing bowl"
+		}],
+		"cookTime": {
+			"amount": 6,
+			"unit": "minute"
+		}
+	}, {
+		"description": "Add bacon to mixture, cook while stirring thoroughly to prevent eggs scrambling.",
+		"cookTime": {
+			"amount": 12,
+			"unit": "minute"
+		}
+	}]
+}
