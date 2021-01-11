@@ -1,7 +1,9 @@
 {
     "recipes": {
         "potato-candy": "potato.recipe.json",
-        "jello-shots": "jelloshot.recipe.json"
+        "jello-shots": "jelloshot.recipe.json",
+        "hot-chocolate": "hotchocolate.recipe.json",
+        "bacon-dressing": "bacon-dressing.json"
     },
     "collections": {
         "Desserts": {
@@ -18,6 +20,6 @@
                 "key": "jello-shots",
                 "label": "Jello Shots"
             }]
-        } 
+        }
     }
 }
