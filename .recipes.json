@@ -3,7 +3,8 @@
         "potato-candy": "potato.recipe.json",
         "jello-shots": "jelloshot.recipe.json",
         "hot-chocolate": "hotchocolate.recipe.json",
-        "bacon-dressing": "bacon-dressing.json"
+        "bacon-dressing": "bacon-dressing.json",
+        "creme-brulee": "creme-brulee.recipe.json"
     },
     "collections": {
         "Desserts": {
@@ -13,12 +14,24 @@
             }, {
                 "key": "jello-shots",
                 "label": "Jello Shots"
+            }, {
+                "key": "creme-brulee",
+                "label": "Creme Brulee"
+            }, {
+                "key": "hot-chocolate",
+                "label": "Hot Chocolate"
             }]
         },
         "Party": {
             "recipes": [{
                 "key": "jello-shots",
                 "label": "Jello Shots"
+            }]
+        },
+        "Salads": {
+            "recipes": [{
+                "key": "bacon-dressing",
+                "label": "Bacon Dressing"
             }]
         }
     }
