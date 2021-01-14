@@ -1,0 +1,185 @@
+{
+	"author": "Nick Felker",
+	"recipe": "Creme Brulee",
+	"spec": "v0.1.0",
+	"tags": "dessert, dairy",
+	"servings": 6,
+	"steps": [{
+		"description": "Preheat the oven to 325 degrees Fahrenheit.",
+		"ingredients": [],
+		"equipment": [],
+		"prepTime": {
+			"amount": 0,
+			"unit": "minutes"
+		},
+		"cookTime": {
+			"amount": 0,
+			"unit": "minutes"
+		}
+	}, {
+		"description": "Whisk eggs and half a cup of sugar.",
+		"ingredients": [{
+			"item": "Egg",
+			"amount": 5,
+			"unit": ""
+		}, {
+			"item": "Sugar",
+			"amount": 0.5,
+			"unit": "cup"
+		}],
+		"equipment": [{
+			"item": "Mixing bowl"
+		}, {
+			"item": "Whisk"
+		}],
+		"prepTime": {
+			"amount": 3,
+			"unit": "minutes"
+		},
+		"cookTime": {
+			"amount": 0,
+			"unit": "minutes"
+		}
+	}, {
+		"description": "Start a kettle. This can be done in parallel.",
+		"ingredients": [],
+		"equipment": [],
+		"prepTime": {
+			"amount": 0,
+			"unit": "minutes"
+		},
+		"cookTime": {
+			"amount": 0,
+			"unit": "minutes"
+		}
+	}, {
+		"description": "Heat the heavy cream and salt together on a medium heat.",
+		"ingredients": [{
+			"item": "Heavy Cream",
+			"amount": 3,
+			"unit": "cup"
+		}, {
+			"item": "Salt",
+			"amount": 0.25,
+			"unit": "teaspoon"
+		}],
+		"equipment": [{
+			"item": "Saucepan"
+		}],
+		"prepTime": {
+			"amount": 0,
+			"unit": "minutes"
+		},
+		"cookTime": {
+			"amount": 3,
+			"unit": "minutes"
+		}
+	}, {
+		"description": "Remove once it begins to simmer. Stir in vanilla.",
+		"ingredients": [{
+			"item": "Vanilla extract",
+			"amount": 1.5,
+			"unit": "teaspoon"
+		}],
+		"prepTime": {
+			"amount": 1,
+			"unit": "minutes"
+		},
+		"cookTime": {
+			"amount": 0,
+			"unit": "minutes"
+		}
+	}, {
+		"description": "Remove about half a cup of the mixture and whisk into the egg yolks. Stir to prevent scrambling.",
+		"ingredients": [],
+		"equipment": [],
+		"prepTime": {
+			"amount": 0,
+			"unit": "minutes"
+		},
+		"cookTime": {
+			"amount": 2,
+			"unit": "minutes"
+		}
+	}, {
+		"description": "Slowly pour egg mixture into the saucepan.",
+		"ingredients": [],
+		"equipment": [],
+		"prepTime": {
+			"amount": 0,
+			"unit": "minutes"
+		},
+		"cookTime": {
+			"amount": 1,
+			"unit": "minutes"
+		}
+	}, {
+		"description": "Place ramekins in a baking pan. Evenly distribute mixture into each one. Fill the pan to about half an inch of hot water.",
+		"ingredients": [],
+		"equipment": [],
+		"prepTime": {
+			"amount": 1,
+			"unit": "minutes"
+		},
+		"cookTime": {
+			"amount": 0,
+			"unit": "minutes"
+		}
+	}, {
+		"description": "Bake until the edges are set. The centers will be slightly pudding-y.",
+		"ingredients": [],
+		"equipment": [{
+			"item": "Oven"
+		}],
+		"prepTime": {
+			"amount": 0,
+			"unit": "minutes"
+		},
+		"cookTime": {
+			"amount": 35,
+			"unit": "minutes"
+		}
+	}, {
+		"description": "Place ramekins on a wire rack to cool for an hour.",
+		"ingredients": [],
+		"equipment": [],
+		"prepTime": {
+			"amount": 60,
+			"unit": "minutes"
+		},
+		"cookTime": {
+			"amount": 0,
+			"unit": "minutes"
+		}
+	}, {
+		"description": "Chill in refrigerator for at least four hours.",
+		"ingredients": [],
+		"equipment": [],
+		"prepTime": {
+			"amount": 240,
+			"unit": "minutes"
+		},
+		"cookTime": {
+			"amount": 0,
+			"unit": "minutes"
+		}
+	}, {
+		"description": "When serving, sprinkle granulated sugar on the top. Carmalize with a kitchen torch.",
+		"ingredients": [{
+			"item": "Sugar",
+			"amount": 0.25,
+			"unit": "cup"
+		}],
+		"equipment": [{
+			"item": "Kitchen torch"
+		}],
+		"prepTime": {
+			"amount": 0,
+			"unit": "minutes"
+		},
+		"cookTime": {
+			"amount": 2,
+			"unit": "minutes"
+		}
+	}]
+}
