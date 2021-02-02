@@ -1,12 +1,23 @@
 {
     "recipes": {
-        "potato-candy": "potato.recipe.json",
-        "jello-shots": "jelloshot.recipe.json",
-        "hot-chocolate": "hotchocolate.recipe.json",
         "bacon-dressing": "bacon-dressing.json",
-        "creme-brulee": "creme-brulee.recipe.json"
+        "creme-brulee": "creme-brulee.recipe.json",
+        "crepe": "sweet-crepe.yaml",
+        "hot-chocolate": "hotchocolate.recipe.json",
+        "jello-shots": "jelloshot.recipe.json",
+        "microwave-omelet": "microwave-omelet.yaml",
+        "potato-candy": "potato.recipe.json"
     },
     "collections": {
+        "Breakfast": {
+            "recipes": [{
+                "key": "crepe",
+                "label": "Sweet Crêpes"
+            }, {
+                "key": "microwave-omelet",
+                "label": "Microwaved Omelet"
+            }]
+        },
         "Desserts": {
             "recipes": [{
                 "key": "potato-candy",

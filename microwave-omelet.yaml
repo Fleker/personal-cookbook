@@ -1,0 +1,37 @@
+author: Nick Felker
+recipe: Microwavable Omelet
+spec: v0.1.0
+tags: egg, omelet, omelette
+servings: 1
+prelude:
+  description: |
+    Using the microwavable omelette accessory.
+steps:
+  - description: Mix the eggs and milk in a bowl. Optionally add other mixins.
+    ingredients:
+      - item: Egg
+        amount: 2
+      - item: Milk
+        amount: 2
+        unit: tablespoon
+    equipment:
+      - item: Bowl
+    prepTime:
+      amount: 2
+      unit: minute
+  - description: Pour mixture into omelet maker. Securely cover and remove air.
+    equipment:
+      - item: Omelet Maker
+    prepTime:
+      amount: 1
+      unit: minute
+  - description: Cook in microwave for one minute.
+    equipment:
+      - item: Microwave
+    cookTime:
+      amount: 1
+      unit: minute
+  - description: Flip and cook for another thirty seconds.
+    cookTime:
+      amount: 30
+      unit: second
