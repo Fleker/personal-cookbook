@@ -45,7 +45,7 @@
 		"ingredients": [],
     "equipment": [{
       "item": "spoon"
-    }]
+    }],
 		"prepTime": {
 			"amount": 1,
 			"unit": "minute"

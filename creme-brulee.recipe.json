@@ -116,7 +116,9 @@
 	}, {
 		"description": "Place ramekins in a baking pan. Evenly distribute mixture into each one. Fill the pan to about half an inch of hot water.",
 		"ingredients": [],
-		"equipment": [],
+		"equipment": [{
+			"item": "ramekins"
+		}],
 		"prepTime": {
 			"amount": 1,
 			"unit": "minutes"
