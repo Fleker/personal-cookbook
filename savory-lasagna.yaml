@@ -1,0 +1,80 @@
+author: Nick Felker
+recipe: Savory Lasagna
+spec: v0.1.0
+tags: savory, lasagna, bacon
+servings: 4
+steps:
+  - description: Boil the lasagna noodles. Ensure you have enough.
+    ingredients:
+      - item: Individual Lasagna Noodles
+        amount: 12
+    equipment:
+      - item: Pot
+  cookTime:
+    amount: 10
+    unit: minute
+
+  - description: Preheat oven to 375F
+
+  - description: Slice and then cook the bacon and onions on a skillet until cooked
+    ingredients:
+      - item: Bacon slices
+        amount: 3
+      - item: Onion
+        amount: 1 # One whole onion
+    equipment:
+      - item: Pan
+    prepTime:
+      amount: 2
+      unit: minute
+    cookTime:
+      amount: 5
+      unit: minute
+
+  - description: Fix the cooked ingredients into a pot of sauce. Cook lightly.
+    ingredients:
+      - item: Tomato sauce
+        amount: 24
+        unit: ounces
+    cookTime:
+      amount: 5
+      unit: minute
+
+  - description: Strain the noodles once cooked
+    prepTime:
+      amount: 1
+      unit: minute
+
+  - description: In a baking pan, spread a base layer of sauce
+    prepTime:
+      amount: 1
+      unit: minute
+
+  - description: Add a layer of noodles. Spread sauce, 2 tbsp cottage cheese, 2 tbsp shredded mozzarella on top
+    prepTime:
+      amount: 1
+      unit: minute
+    ingredients:
+      - item: Cottage cheese
+        amount: 2
+        unit: tbsp
+      - item: Mozzarella cheese
+        amount: 2
+        unit: tbsp
+
+  - description: Keep alternating layers of noodles and mixins. You may have 4 layers in all. Spread remaining sauce on top.
+    prepTime:
+      amount: 1
+      unit: minute
+    ingredients:
+      - item: Cottage cheese
+        amount: 4
+        unit: tbsp
+      - item: Mozzarella cheese
+        amount: 4
+        unit: tbsp
+
+  - description: Bake in oven for 45 minutes.
+    cookTime:
+      amount: 45
+      unit: minute

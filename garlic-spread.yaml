@@ -1,0 +1,40 @@
+author: Nick Felker
+recipe: Garlic Spread
+spec: v0.1.0
+tags: spread, butter, garlic
+servings: 3
+prelude:
+  description: A tasty spread for bread made of garlic.
+
+steps:
+  - description: Preheat the oven to 375F
+
+  - description: Cut off the top of a garlic bulb to expose the cloves inside
+    ingredients:
+      - item: Garlic Bulb
+        amount: 1
+    equipment:
+      - item: Knife
+    prepTime:
+      amount: 1
+      unit: minute
+
+  - description: Cover the garlic in olive oil and a pinch of sea salt
+    ingredients:
+      - item: Sea Salt
+        amount: 2
+        unit: teaspoon
+      - item: Olive oil
+        amount: 1
+        unit: tablespoon
+
+  - description: Cover the garlic in foil, being sure to keep the top lightly exposed
+    equipment:
+      - item: Tin foil
+
+  - description: Place this on a pan and bake in oven for 45 minutes
+    equipment:
+      - item: Baking pan
+    cookTime:
+      amount: 45
+      unit: minute
