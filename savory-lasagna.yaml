@@ -10,9 +10,9 @@ steps:
         amount: 12
     equipment:
       - item: Pot
-  cookTime:
-    amount: 10
-    unit: minute
+    cookTime:
+      amount: 10
+      unit: minute
 
   - description: Preheat oven to 375F
 
