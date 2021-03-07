@@ -48,7 +48,7 @@ steps:
         unit: Tablespoon
         amount: 1
 
-  - description: |
+  - description: >-
       Place chunks on a baking pan, on parchment paper, and then place in oven.
       Bake for no longer than fifteen minutes, but check periodically to ensure
       they are at the appropriate level of crunchiness.
