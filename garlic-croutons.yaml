@@ -1,0 +1,60 @@
+author: Nick Felker
+recipe: Garlic Croutons
+spec: v0.1.0
+tags: crouton, salad
+servings: 2
+prelude:
+  description: Homemade croutons for a salad.
+
+steps:
+  - description: Preheat oven to 375F
+
+  - description: Dice bread into cubes based on size preference
+    ingredients:
+      - item: Slice of bread
+        amount: 2
+    equipment:
+      - item: Knife
+    prepTime:
+      amount: 2
+      unit: minute
+
+  - description: Place in a large bowl and spread olive oil
+    ingredients:
+      - item: Olive oil
+        unit: Cup
+        amount: 0.5
+    equipment:
+      - item: Mixing bowl
+    prepTime:
+      amount: 1
+      unit: minute
+
+  - description: Add other spices as desired and mix thoroughly
+    ingredients:
+      - item: Cilantro
+        unit: Teaspoon
+        amount: 2
+      - item: Black Pepper
+        unit: Teaspoon
+        amount: 2
+      - item: Salt
+        unit: Tablespoon
+        amount: 1
+      - item: Chives
+        unit: Tablespoon
+        amount: 1
+      - item: Garlic powder
+        unit: Tablespoon
+        amount: 1
+
+  - description: |
+      Place chunks on a baking pan, on parchment paper, and then place in oven.
+      Bake for no longer than fifteen minutes, but check periodically to ensure
+      they are at the appropriate level of crunchiness.
+    equipment:
+      - item: Parchment paper
+      - item: Baking pan
+    cookTime:
+      amount: 15
+      unit: minute

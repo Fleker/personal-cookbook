@@ -4,6 +4,7 @@
         "creme-brulee": "creme-brulee.recipe.json",
         "crepe": "sweet-crepe.yaml",
         "garlic-spread": "garlic-spread.yaml",
+        "garlic-croutons": "garlic-croutons.yaml",
         "hot-chocolate": "hotchocolate.recipe.json",
         "jello-shots": "jelloshot.recipe.json",
         "microwave-omelet": "microwave-omelet.yaml",
@@ -57,6 +58,9 @@
             "recipes": [{
                 "key": "bacon-dressing",
                 "label": "Bacon Dressing"
+            }, {
+                "key": "garlic-croutons",
+                "label": "Garlic Croutons"
             }]
         }
     }
