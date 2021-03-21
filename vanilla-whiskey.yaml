@@ -1,0 +1,46 @@
+author: Nick Felker
+recipe: Vanilla Syrup Whiskey
+spec: v0.1.0
+tags: whiskey, cocktail, syrup
+servings: 5
+prelude:
+  description: A mistake in making rock candy resulted in me wondering what to do with this syrupy mixture.
+
+steps:
+  - description: Bring 2 cups of water to a boil
+    ingredients:
+      - item: Water
+        amount: 2
+        unit: cup
+    equipment:
+      - item: Saucepan
+      - item: Stove
+    cookTime:
+      amount: 5
+      unit: minute
+
+  - description: Add six cups of sugar. Stir after each cup until it's all dissolved.
+    ingredients:
+      - item: Sugar
+        amount: 6
+        unit: cup
+    prepTime:
+      amount: 4
+      unit: minute
+
+  - description: Add a bit of flavoring. I chose vanilla, but only because I couldn't open the caramel bottle.
+    ingredients:
+      - item: Vanilla
+        amount: 1
+        unit: teaspoon
+
+  - description: Turn off the stove and let the syrup cool for around half an hour.
+    prepTime:
+      amount: 30
+      unit: minute
+
+  - description: Now the syrup is done. It can be stored in the fridge. Mix 1:1 with whiskey and stir thoroughly.
+    ingredients:
+      - item: Jameson Irish Whiskey
+        amount: 1
+        unit: cup

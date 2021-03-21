@@ -1,0 +1,69 @@
+author: Nick Felker
+recipe: Stuffed Shells
+spec: v0.1.0
+tags: pasta, stuffed Shells
+servings: 3
+prelude:
+  description: One recipe suggests mixing in an egg. Should try that next time. And shredded mozzarella.
+
+steps:
+    - description: Preheat oven to 375F
+
+    - description: Boil stuffed shells like you would for any pasta
+      ingredients:
+        - item: Pasta shells
+          amount: 9
+      equipment:
+        - item: Pot
+      cookTime:
+        amount: 10
+        unit: minute
+
+    - description: Prepare the stuffing by mixing cottage cheese with salt and other seasoning. Add to taste.
+      ingredients:
+        - item: Ricotta cheese
+          amount: 2
+          unit: cup
+        - item: Salt
+          amount: 4
+          unit: teaspoon
+        - item: Cilantro
+          amount: 2
+          unit: teaspoon
+        - item: Parsley
+          amount: 2
+          unit: teaspoon
+      prepTime:
+        amount: 3
+        unit: minute
+
+    - description: Spread tomato sauce at the bottom of a baking pan
+      equipment:
+        - item: Baking pan
+      ingredients:
+        - item: Tomato sauce
+          amount: 1.5
+          unit: cup
+
+    - description: Drain pasta when ready
+      prepTime:
+        amount: 1
+        unit: minute
+
+    - description: Carefully (they are hot) fill the shells with the mixture and place in the baking pan
+      prepTime:
+        amount: 3
+        unit: minute
+
+    - description: Cover the shells with tomato sauce. Don't be afraid to be generous.
+      ingredients:
+        - item: Tomato sauce
+          amount: 1.5
+          unit: cup
+
+    - description: Bake for 20 minutes.
+      equipment:
+        - item: Oven
+      cookTime:
+        amount: 20
+        unit: minute

@@ -1,0 +1,47 @@
+author: Nick Felker
+recipe: Sweet BBQ Sauce
+spec: v0.1.0
+tags: bbq, sauce
+servings: 6
+prelude:
+  description: Has a strong apple cider vinegar taste. I need to try smaller amounts.
+
+steps:
+  - description: Whisk all the ingredients in a medium saucepan.
+    ingredients:
+      - item: Ketchup
+        amount: 1.25
+        unit: cup
+      - item: Apple Cider Vinegar
+        amount: 0.5
+        unit: cup
+      - item: Brown sugar
+        amount: 0.25
+        unit: cup
+      - item: Honey
+        amount: 2
+        unit: tablespoon
+      - item: Worcestershire sauce
+        amount: 1
+        unit: tablespoon
+      - item: Black pepper
+        amount: 1
+        unit: teaspoon
+      - item: Cilantro
+        amount: 2
+        unit: teaspoon
+    equipment:
+      - item: Saucepan
+    prepTime:
+      amount: 4
+      unit: minute
+
+  - description: Cook on stovetop over medium heat until it starts to boil
+    cookTime:
+      amount: 5
+      unit: minute
+
+  - description: Reduce heat to low and allow to simmer for ten minutes
+    cookTime:
+      amount: 10
+      unit: minute

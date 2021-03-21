@@ -9,7 +9,10 @@
         "jello-shots": "jelloshot.recipe.json",
         "microwave-omelet": "microwave-omelet.yaml",
         "potato-candy": "potato.recipe.json",
-        "savory-lasagna": "savory-lasagna.yaml"
+        "savory-lasagna": "savory-lasagna.yaml",
+        "stuffed-shells": "stuffed-shells.yaml",
+        "sweet-bbq-sauce": "sweet-bbq-sauce.yaml",
+        "vanilla-whiskey": "vanilla-whiskey.yaml"
     },
     "collections": {
         "Breakfast": {
@@ -31,6 +34,9 @@
             "recipes": [{
                 "key": "savory-lasagna",
                 "label": "Lasagna"
+            }, {
+                "key": "stuffed-shells",
+                "label": "Stuffed Shells"
             }]
         },
         "Desserts": {
@@ -52,6 +58,9 @@
             "recipes": [{
                 "key": "jello-shots",
                 "label": "Jello Shots"
+            }, {
+                "key": "vanilla-whiskey",
+                "label": "Vanilla Whiskey"
             }]
         },
         "Salads": {
@@ -61,6 +70,12 @@
             }, {
                 "key": "garlic-croutons",
                 "label": "Garlic Croutons"
+            }]
+        },
+        "Spreads": {
+            "recipes": [{
+                "key": "sweet-bbq-sauce",
+                "label": "Sweet BBQ Sauce"
             }]
         }
     }
