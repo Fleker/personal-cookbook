@@ -33,19 +33,19 @@ steps:
   - description: Add other spices as desired and mix thoroughly
     ingredients:
       - item: Cilantro
-        unit: Teaspoon
+        unit: teaspoon
         amount: 2
       - item: Black Pepper
-        unit: Teaspoon
+        unit: teaspoon
         amount: 2
       - item: Salt
-        unit: Tablespoon
+        unit: tablespoon
         amount: 1
       - item: Chives
-        unit: Tablespoon
+        unit: tablespoon
         amount: 1
       - item: Garlic powder
-        unit: Tablespoon
+        unit: tablespoon
         amount: 1
 
   - description: >-
