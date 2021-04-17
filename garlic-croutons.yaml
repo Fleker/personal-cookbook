@@ -50,11 +50,11 @@ steps:
 
   - description: >-
       Place chunks on a baking pan, on parchment paper, and then place in oven.
-      Bake for no longer than fifteen minutes, but check periodically to ensure
+      Bake for no longer than ten minutes, but check periodically to ensure
       they are at the appropriate level of crunchiness.
     equipment:
       - item: Parchment paper
       - item: Baking pan
     cookTime:
-      amount: 15
+      amount: 10
       unit: minute

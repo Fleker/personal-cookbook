@@ -12,6 +12,7 @@
         "savory-lasagna": "savory-lasagna.yaml",
         "stuffed-shells": "stuffed-shells.yaml",
         "sweet-bbq-sauce": "sweet-bbq-sauce.yaml",
+        "tiramisu": "tiramisu.yaml",
         "vanilla-whiskey": "vanilla-whiskey.yaml"
     },
     "collections": {
@@ -52,6 +53,9 @@
             }, {
                 "key": "hot-chocolate",
                 "label": "Hot Chocolate"
+            }, {
+                "key": "tiramisu",
+                "label": "Tiramisu"
             }]
         },
         "Party": {

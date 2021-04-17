@@ -1,0 +1,92 @@
+author: Nick Felker
+recipe: Tiramisu
+spec: v0.1.0
+tags: tiramisu, heavy cream, dessert
+servings: 8
+prelude:
+  description: Mix thoroughly!
+
+steps:
+  - description: Mix egg yolks and 1/4 cup sugar with an electric mixer(!). Transfer to a larger bowl once ready.
+    ingredients:
+      - item: Egg
+        amount: 4
+      - item: Granulated sugar
+        amount: 0.25
+        unit: cup
+    equipment:
+      - item: Electric mixer
+      - item: Medium bowl
+      - item: Large bowl
+    prepTime:
+      amount: 4
+      unit: minute
+
+  - description: Mix another 1/4 cup sugar with cream in that original bowl. Add in mascarpone and whip until it becomes a soft mixture. Add to eggs.
+    ingredients:
+      - item: Granulated sugar
+        amount: 0.25
+        unit: cup
+      - item: Marscapone
+        amount: 1
+        unit: cup
+      - item: Heavy cream
+        amount: 0.75
+        unit: cup
+    prepTime:
+      amount: 4
+      unit: minute
+
+  - description: Prepare espresso or strong coffee in a shallow bowl.
+    ingredients:
+      - item: Espresso
+        amount: 2
+        unit: cup
+    prepTime:
+      amount: 5
+      unit: minute
+
+  - description: Sprinkle the bottom of a baking pan with cocoa powder
+    ingredients:
+      - item: Cocoa powder
+        amount: 1
+        unit: tablespoon
+    equipment:
+      - item: Baking pan
+    prepTime:
+      amount: 1
+      unit: minute
+
+  - description: Dip half the ladyfingers into the espresso mixture (be very quick) and place in pan.
+    ingredients:
+      - item: Box of Ladyfingers (24 ct)
+        amount: 1
+    prepTime:
+      amount: 2
+      unit: minute
+
+  - description: Spread the egg mixture onto the ladyfingers
+    prepTime:
+      amount: 1
+      unit: minute
+
+  - description: Dip the remaining ladyfingers into the espresso and place on top of the previous ones.
+    prepTime:
+      amount: 2
+      unit: minute
+
+  - description: Spread cocoa powder on the top of the ladyfingers. Optionally add shaved chocolate.
+    ingredients:
+      - item: Cocoa powder
+        amount: 1
+        unit: tablespoon
+    prepTime:
+      amount: 1
+      unit: minute
+
+  - description: Cover with plastic wrap and sit in fridge for at least 4 hours (up to 24) before serving.
+    prepTime:
+      amount: 240
+      unit: minute
+    equipment:
+      - item: Plastic wrap
