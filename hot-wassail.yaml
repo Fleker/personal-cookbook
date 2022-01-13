@@ -1,0 +1,42 @@
+author: Unknown
+recipe: Hot Holiday Wassail
+spec: v0.1.0
+tags: cocktail, mocktail
+servings: 4
+
+steps:
+  - description: Combine everything into one pot
+    ingredients:
+      - item: Apple cider
+        amount: 8
+        unit: cup
+      - item: Orange juice
+        amount: 2
+        unit: cup
+      - item: Lemon Juice
+        amount: 0.5
+        unit: cup
+      - item: Cinnamon sticks
+        amount: 4
+      - item: Whole cloves
+        amount: 12
+      - item: Ground ginger
+        amount: 0.25
+        unit: teaspoon
+      - item: Ground nutmeg
+        amount: 0.25
+        unit: teaspoon
+    equipment:
+      - item: Pot
+
+  - description: Simmer over medium-low heat
+    equipment:
+      - item: Stove
+    cookTime:
+      amount: 10
+      unit: minutes
+
+  - description: Reduce heat and simmer for 45 minutes
+    prepTime:
+      amount: 45
+      unit: minutes

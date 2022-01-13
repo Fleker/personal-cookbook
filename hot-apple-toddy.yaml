@@ -1,0 +1,40 @@
+author: Unknown
+recipe: Hot Apple Toddy
+spec: v0.1.0
+tags: spirit, cocktail, apple
+servings: 1
+
+steps:
+  - description: Heat up apple cider and warm glass mug
+    ingredients:
+      - item: Apple cider
+        amount: 5
+        unit: ounces
+    equipment:
+      - item: Glass mug
+    cookTime:
+      amount: 5
+      unit: minute
+
+  - description: Coat bottom of glass with honey
+    ingredients:
+      - item: Honey
+        amount: 1
+        unit: teaspoon
+
+  - description: Add whiskey
+    ingredients:
+      - item: Whiskey
+        amount: 2
+        unit: ounces
+
+  - description: Fill with hot apple cider. Stir well.
+
+  - description: Garnish with lemon wedge, cinnamon sticks, and cloves
+    ingredients:
+      - item: Lemon wedge
+        amount: 1
+      - item: Cinnamon stick
+        amount: 1
+      - item: Whole cloves
+        amount: 2

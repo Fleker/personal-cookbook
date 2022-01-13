@@ -7,6 +7,8 @@
         "garlic-spread": "garlic-spread.yaml",
         "garlic-croutons": "garlic-croutons.yaml",
         "hot-chocolate": "hotchocolate.recipe.json",
+        "hot-apple-toddy": "hot-apple-toddy.yaml",
+        "hot-wassail": "hot-wassail.yaml",
         "jello-shots": "jelloshot.recipe.json",
         "microwave-omelet": "microwave-omelet.yaml",
         "potato-candy": "potato.recipe.json",
@@ -24,6 +26,15 @@
             }, {
                 "key": "microwave-omelet",
                 "label": "Microwaved Omelet"
+            }]
+        },
+        "Drinks": {
+            "recipes": [{
+                "key": "hot-apple-toddy",
+                "label": "Apple Toddy"
+            }, {
+                "key": "hot-wassail",
+                "label": "Non-Spirited Wassail"
             }]
         },
         "Appetizer": {
