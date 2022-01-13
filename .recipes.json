@@ -1,6 +1,7 @@
 {
     "recipes": {
         "bacon-dressing": "bacon-dressing.json",
+        "corn-sauce": "corn-sauce.yaml",
         "creme-brulee": "creme-brulee.recipe.json",
         "crepe": "sweet-crepe.yaml",
         "garlic-spread": "garlic-spread.yaml",
@@ -80,6 +81,9 @@
             "recipes": [{
                 "key": "sweet-bbq-sauce",
                 "label": "Sweet BBQ Sauce"
+            }, {
+                "key": "corn-sauce",
+                "label": "Hamburger Corn Sauce"
             }]
         }
     }

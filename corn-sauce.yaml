@@ -1,0 +1,40 @@
+# Via TikTok: https://vm.tiktok.com/TTPd68kX4k/
+author: Nick Felker
+recipe: Hamburger Corn Sauce
+spec: v0.1.0
+tags: corn
+servings: 4
+prelude:
+  description: Saw this on TikTok
+
+steps:
+  - description: Cut off all the kernels of the corn cob.
+    ingredients:
+      - item: Corn on the cob
+        amount: 1
+    equipment:
+      - item: Knife
+    prepTime:
+      amount: 3
+      unit: minute
+
+  - description: Blend corn until it is fully liquified.
+    equipment:
+      - item: Blender
+    prepTime:
+      amount: 5
+      unit: minute
+
+  - description: Pour into a pot and simmer. It will start to thicken up.
+    equipment:
+      - item: Stove
+      - item: Pot
+    prepTime:
+      amount: 5
+      unit: minute
+
+  - description: Stir in desired spices
+    ingredients:
+      - item: Garlic powder
+        amount: 2
+        unit: teaspoon
