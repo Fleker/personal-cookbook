@@ -1,0 +1,35 @@
+author: Zabar family
+recipe: Cheeze Blintz Blueberry Sauce
+spec: v0.1.0
+tags: blueberry, sauce, cream
+servings: 4
+
+steps:
+  - description: Place the blueberries, water, sugar, and cornstarch in a small pot. Bring to a gentle boil.
+    ingredients:
+      - item: Blueberries
+        amount: 1
+        unit: pint
+      - item: Water
+        amount: 0.25
+        unit: cup
+      - item: Sugar
+        amount: 3
+        unit: tablespoons
+      - item: Cornstarch
+        amount: 1
+        unit: tablespoon
+    cookTime:
+      amount: 5
+      unit: minute
+
+  - description: Reduce the heat and simmer until the blueberries start to break down but retain their shape, 3 to 5 minutes. Stir occasionally. Add the orange juice and stir.
+    ingredients:
+      - item: Orange juice
+        amount: 1.5
+        unit: tablespoon
+    cookTime:
+      amount: 5
+      unit: minute
+
+  - description: Serve warm or at room temperature

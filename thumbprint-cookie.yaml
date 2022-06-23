@@ -1,0 +1,56 @@
+author: Zabar family
+recipe: Thumbprint Cookies
+spec: v0.1.0
+tags: cookie
+servings: 20
+
+steps:
+  - description: Using an electric mixer, cream the butter and sugar until pale and fluffy. Add the egg yolk, mix again, and scrape down the sides of the bowl. Add the flour last and mix and until combined.
+    ingredients:
+      - item: Butter
+        amount: 8
+        unit: tablespoon
+      - item: Sugar
+        amount: 0.33
+        unit: cup
+      - item: Egg yolk
+        amount: 1
+      - item: Flour
+        amount: 1
+        unit: cup
+    prepTime:
+      amount: 5
+      unit: minute
+
+  - description: Form the dough into a round disk and refrigerate for at least two hours (or overnight)
+    prepTime:
+      amount: 2
+      unit: hour
+
+  - description: Preheat the oven to 350F
+    prepTime:
+      amount: 1
+      unit: minute
+
+  - description: Remove the dough from the refrigerator, let stand a few minutes to soften, and place on a lightly floured surface. Roll out the dough until it's about 1/2 inch thick. Use a 1-inch cookie cutter to cut the dough into rounds. Reroll the scraps. Alternatively, you can form 1-inch balls.
+    prepTime:
+      amount: 5
+      unit: minute
+
+  - description: Arrange the balls on two parchment-lined cookie sheets. Press a finger into the center of each cookie.
+    prepTime:
+      amount: 5
+      unit: minute
+
+  - description: Put the jam in a sealable plastic bag and cut off one bottom corner. Use it as you would a pastry bag to pipe a drop of jam into the center of each cookie, roughly 1/2 teaspoon.
+    ingredients:
+      - item: Good-quality jam
+        amount: 0.5
+        unit: cup
+
+  - description: Bake for about 12 minutes, until the edges are golden
+    cookTime:
+      amount: 12
+      unit: minute
+
+  - description: Cool on a rack then store in an airtight container. They'll last about a week.

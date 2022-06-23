@@ -1,0 +1,55 @@
+author: Lily Zabar
+recipe: Latkes
+spec: v0.1.0
+tags: potato, latke
+servings: 6
+
+steps:
+  - description: Use a food processor with a fine blade to grate the onions (or by hand). Drain and discard the liquid. Transfer to a mixing bowl.
+    ingredients:
+      - item: Yellow onions
+        amount: 2
+    equipment:
+      - item: Food Processor
+      - item: Mixing bowl
+    prepTime:
+      amount: 5
+      unit: minute
+
+  - description: Grate the potatoes. Drain and discard the liquid. Add the potatos to the onions and stir in the eggs, salt, and pepper.
+    ingredients:
+      - item: Idado potatoes
+        amount: 4
+      - item: Eggs
+        amount: 3
+      - item: Salt
+        amount: 1
+        unit: tablespoon
+      - item: Pepper
+        amount: 1.5
+        unit: teaspoon
+    prepTime:
+      amount: 5
+      unit: minute
+
+  - description: Mix in 1/4 cup of flour to start. Continue to add more until the mixutre has the consistency of a thick oatmeal.
+    ingredients:
+      - item: Flour
+        amount: 0.5
+        unit: cup
+    prepTime:
+      amount: 5
+      unit: minute
+
+  - description: Heat about 1 inch of oil in a large skillet over medium-high heat. When the oil gets very hot, drop in a scant 1/4 cup of the mixture. Press down slightly to form an even latke. Cook on one side until a deep golden brown (2-3 minutes). Flip it over and cook on the other side. Remove from the pan and drain on a paper towel. Repeat until done.
+    ingredients:
+      - item: Vegetable oil
+        amount: 1
+        unit: cup
+    equipment:
+      - item: Skillet
+    cookTime:
+      amount: 10
+      unit: minute
+
+  - description: Serve with applesauce or sour cream

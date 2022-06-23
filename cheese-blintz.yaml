@@ -1,0 +1,66 @@
+author: Zabar family
+recipe: Cheese Blintzes
+spec: v0.1.0
+tags: breakfast, pastry
+servings: 4
+
+steps:
+  - description: Make the batter - Beat the eggs and water together. Add the salt, flour, and melted butter, and mix well.
+    ingredients:
+      - item: Eggs
+        amount: 2
+      - item: Water
+        amount: 1
+        unit: cup
+      - item: Salt
+        amount: 0.25
+        unit: teaspoon
+      - item: Flour
+        amount: 1
+        unit: cup
+      - item: Melted butter
+        amount: 2
+        unit: tablespoons
+    prepTime:
+      amount: 3
+      unit: minute
+
+  - description: Heat a small skillet over medium-high heat. Brush the bottom of the pan with some of the meltd butter. When the butter sizzles, add 2 or 3 tablespoons of butter to the pan. Swirl it around until it lightly covers the pan.
+    ingredients:
+      - item: Butter
+        amount: 3
+        unit: tablespoons
+    equipment:
+      - item: Small skillet
+    cookTime:
+      amount: 3
+      unit: minute
+
+  - description: Cook for 3 minutes, until the bottom is a light golden brown. Slide the blintz onto a plate. Repeat until all the batter is used. You should have 10 to 12 blintzes, depending on the size.
+    cookTime:
+      amount: 3
+      unit: minute
+
+  - description: Make the filling -- Mix together the farmer cheese, egg yolk, sugar, and vanilla. Put abotu a heaping tablespoon of the filling into the center of the uncooked side of the blintz wrapper. Roll up and tuck in the ends. Repeat with the rest of the wrappers and filling.
+    ingredients:
+      - item: Farmer cheese
+        amount: 8
+        unit: ounces
+      - item: Egg Yolk
+        amount: 1
+      - item: Sugar
+        amount: 3
+        unit: tablespoons
+      - item: Vanilla
+        amount: 0.5
+        unit: teaspoon
+    prepTime:
+      amount: 5
+      unit: minute
+
+  - description: Finish the blintzes -- Heat 2 tablespoons of the butter for cooking in a large skillet over medium heat. Place some of the blintzes in the pan, folded side down, and cook for 2 or 3 minutes, until golden brown. Flip the blintzes over and cook the second side until golden. Repeat.
+    cookTime:
+      amount: 6
+      unit: minute
+
+  - description: Serve with the blueberry sauce and sour cream if needed
