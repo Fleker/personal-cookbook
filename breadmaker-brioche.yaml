@@ -1,0 +1,42 @@
+author: Dash Corporation
+recipe: Brioche Loaf
+spec: v0.1.0
+tags: breadmaker
+servings: 4
+
+steps:
+  - description: Place all ingredients in baking pan
+    ingredients:
+      - item: Whole milk
+        amount: 6
+        unit: tbsp
+      - item: Unsalted butter
+        amount: 5
+        unit: tbsp
+      - item: Sugar
+        amount: 4
+        unit: tsp
+      - item: Kosher salt
+        amount: 1
+        unit: tsp
+      - item: Lightly beaten eggs
+        amount: 2
+      - item: Unbleached all-purpose flour
+        amount: 33
+        unit: tbsp
+      - item: Nonfat Dry Milk Powder
+        amount: 1
+        unit: tbsp
+      - item: Active dry yeast
+        amount: 1 # One packet
+        unit: tsp
+    equipment:
+      - item: Dash Breadmaker
+    prepTime:
+      amount: 5
+      unit: minute
+
+  - description: Select mode "Sweet", color "Medium", loaf size "1 lb"
+    cookTime:
+      amount: 4
+      unit: hour

@@ -1,0 +1,37 @@
+author: Dash Corporation
+recipe: French Bread
+spec: v0.1.0
+tags: breadmaker
+servings: 4
+
+steps:
+  - description: Place all ingredients in baking pan
+    ingredients:
+      - item: Water, room temperature
+        amount: 0.67
+        unit: cup
+      - item: Olive Oil
+        amount: 2
+        unit: tsp
+      - item: Sugar
+        amount: 1
+        unit: tbsp
+      - item: Kosher salt
+        amount: 0.625
+        unit: tsp
+      - item: Bread flour or unbleached all-purpose flour
+        amount: 2
+        unit: cup
+      - item: Active dry yeast
+        amount: 1 # One packet
+        unit: tsp
+    equipment:
+      - item: Dash Breadmaker
+    prepTime:
+      amount: 5
+      unit: minute
+
+  - description: Select mode "French Bread", color "Medium", loaf size "1 lb"
+    cookTime:
+      amount: 4
+      unit: hour

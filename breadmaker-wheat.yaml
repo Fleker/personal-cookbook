@@ -1,0 +1,43 @@
+author: Dash Corporation
+recipe: Whole Wheat Bread
+spec: v0.1.0
+tags: breadmaker
+servings: 4
+
+steps:
+  - description: Place all ingredients in baking pan
+    ingredients:
+      - item: Water, room temperature
+        amount: 0.75
+        unit: cup
+      - item: Unsalted butter
+        amount: 1
+        unit: tbsp
+      - item: Sugar
+        amount: 2
+        unit: tsp
+      - item: Kosher salt
+        amount: 0.75
+        unit: tsp
+      - item: Whole wheat flour
+        amount: 1
+        unit: cup
+      - item: Bread flour or unbleached all-purpose flour
+        amount: 1
+        unit: cup
+      - item: Nonfat Dry Milk Powder
+        amount: 3
+        unit: tbsp
+      - item: Active dry yeast
+        amount: 1 # One packet
+        unit: tsp
+    equipment:
+      - item: Dash Breadmaker
+    prepTime:
+      amount: 5
+      unit: minute
+
+  - description: Select mode "Whole Wheat", color "Medium", loaf size "1 lb"
+    cookTime:
+      amount: 4
+      unit: hour

@@ -1,6 +1,7 @@
 {
     "recipes": {
         "bacon-dressing": "bacon-dressing.json",
+        "breadmaker-white": "breadmaker-white.yaml",
         "corn-sauce": "corn-sauce.yaml",
         "creme-brulee": "creme-brulee.recipe.json",
         "crepe": "sweet-crepe.yaml",
@@ -95,6 +96,24 @@
             }, {
                 "key": "corn-sauce",
                 "label": "Hamburger Corn Sauce"
+            }]
+        },
+        "Bread Maker": {
+            "recipes": [{
+                "key": "breadmaker-white",
+                "label": "White Bread"
+            }, {
+                "key": "breadmaker-french",
+                "label": "French Bread"
+            }, {
+                "key": "breadmaker-wheat",
+                "label": "Whole Wheat Bread"
+            }, {
+                "key": "breadmaker-brioche",
+                "label": "Brioche Loaf"
+            }, {
+                "key": "breadmaker-countryfrench",
+                "label": "Country French Bread w/ Olives & Rosemary"
             }]
         }
     }

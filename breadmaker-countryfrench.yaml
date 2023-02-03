@@ -1,0 +1,49 @@
+author: Dash Corporation
+recipe: Country French Bread w/ Olives & Rosemary
+spec: v0.1.0
+tags: breadmaker
+servings: 4
+
+steps:
+  - description: Place all ingredients in baking pan
+    ingredients:
+      - item: Water, room temperature
+        amount: 0.75
+        unit: cup
+      - item: Olive Oil
+        amount: 1.5
+        unit: tsp
+      - item: Kosher salt
+        amount: 0.75
+        unit: tsp
+      - item: Honey
+        amount: 0.5
+        unit: tsp
+      - item: Finely chopped fresh rosemary
+        amount: 1
+        unit: tsp
+      - item: Bread flour or unbleached all-purpose flour
+        amount: 1.75
+        unit: cup
+      - item: Whole wheat flour
+        amount: 0.5
+        unit: cup
+      - item: Rye flour
+        amount: 3
+        unit: tbsp
+      - item: Pitted kalamata olives
+        amount: 0.5
+        unit: cup
+      - item: Active dry yeast
+        amount: 1 # One packet
+        unit: tsp
+    equipment:
+      - item: Dash Breadmaker
+    prepTime:
+      amount: 5
+      unit: minute
+
+  - description: Select mode "French Bread", color "Medium", loaf size "1 lb"
+    cookTime:
+      amount: 4
+      unit: hour
