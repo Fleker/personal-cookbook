@@ -1,0 +1,62 @@
+author: Dash Corporation
+recipe: Margherita Pizza
+spec: v0.1.0
+tags: breadmaker
+servings: 4
+
+steps:
+  - description: Make Pizza Dough
+    prepTime:
+      amount: 4
+      unit: hour
+
+  - descriptin: Preheat the oven to 450F
+    prepTime:
+      amount: 5
+      unit: minute
+    equipment:
+      - item: Oven
+
+  - description: Punch down dough and divide into four pieces. Place in sheet pan, cover in plastic wrap, let set and double.
+    prepTime:
+      amount: 30
+      unit: minute
+    equipment:
+      - item: Sheet Pan
+
+  - description: Sprinkle cornmeal on work surface. Put, pull, stetch dough into a ten-inch circle.
+    prepTime:
+      amount: 5
+      unit: minute
+    ingredients:
+      - item: Cornmeal
+        amount: 1
+        unit: tbsp
+
+  - description: Sprinkle cornmeal then transfer dough to rimless cookie sheet
+    ingredients:
+      - item: Cornmeal
+        amount: 1
+        unit: tbsp
+    equipment:
+      - item: Rimless cookie sheet
+
+  - description: Add some tomato sauce and spread evenly. Add cheese.
+    ingredients:
+      - item: Pizza sauce
+        amount: 2
+        unit: cup
+      - item: Mozarella cheese
+        amount: 4
+        unit: oz
+
+  - description: Bake until dough is crisp
+    cookTime:
+      amount: 10
+      unit: minute
+
+  - description: Top with fresh basil
+    ingredients:
+      - item: Fresh basil leaves
+        amount: 12
+

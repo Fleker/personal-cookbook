@@ -8,6 +8,7 @@
         "breadmaker-countryfrench": "breadmaker-countryfrench.yaml",
         "breadmaker-focaccia": "breadmaker-focaccia.yaml",
         "breadmaker-pizza": "breadmaker-pizza.yaml",
+        "breadmaker-margherita": "breadmaker-margherita.yaml",
         "corn-sauce": "corn-sauce.yaml",
         "creme-brulee": "creme-brulee.recipe.json",
         "crepe": "sweet-crepe.yaml",
@@ -57,6 +58,9 @@
             }, {
                 "key": "stuffed-shells",
                 "label": "Stuffed Shells"
+            }, {
+                "key": "breadmaker-margherita",
+                "label": "Margherita Pizza"
             }]
         },
         "Desserts": {
@@ -126,6 +130,9 @@
             }, {
                 "key": "breadmaker-pizza",
                 "label": "Pizza Dough"
+            }, {
+                "key": "breadmaker-margherita",
+                "label": "Margherita Pizza"
             }]
         }
     }
