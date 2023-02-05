@@ -2,6 +2,12 @@
     "recipes": {
         "bacon-dressing": "bacon-dressing.json",
         "breadmaker-white": "breadmaker-white.yaml",
+        "breadmaker-french": "breadmaker-french.yaml",
+        "breadmaker-wheat": "breadmaker-wheat.yaml",
+        "breadmaker-brioche": "breadmaker-brioche.yaml",
+        "breadmaker-countryfrench": "breadmaker-countryfrench.yaml",
+        "breadmaker-focaccia": "breadmaker-focaccia.yaml",
+        "breadmaker-pizza": "breadmaker-pizza.yaml",
         "corn-sauce": "corn-sauce.yaml",
         "creme-brulee": "creme-brulee.recipe.json",
         "crepe": "sweet-crepe.yaml",
@@ -114,6 +120,12 @@
             }, {
                 "key": "breadmaker-countryfrench",
                 "label": "Country French Bread w/ Olives & Rosemary"
+            }, {
+                "key": "breadmaker-focaccia",
+                "label": "Focaccia"
+            }, {
+                "key": "breadmaker-pizza",
+                "label": "Pizza Dough"
             }]
         }
     }

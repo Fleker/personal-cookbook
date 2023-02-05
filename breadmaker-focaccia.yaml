@@ -1,0 +1,73 @@
+author: Dash Corporation
+recipe: Focaccia
+spec: v0.1.0
+tags: breadmaker
+servings: 4
+
+steps:
+  - description: Place all ingredients in baking pan
+    ingredients:
+      - item: Water, room temperature
+        amount: 0.75
+        unit: cup
+      - item: Olive Oil
+        amount: 0.25
+        unit: cup
+      - item: Kosher salt
+        amount: 1.5
+        unit: tsp
+      - item: Italian Herb Mix
+        amount: 2.25
+        unit: tsp
+      - item: Bread flour or unbleached all-purpose flour
+        amount: 3.1875
+        unit: cup
+      - item: Fleur de sel or coarse salt
+        amount: 3
+        unit: tsp
+      - item: Active dry yeast
+        amount: 1 # One packet
+        unit: tsp
+    equipment:
+      - item: Dash Breadmaker
+    prepTime:
+      amount: 5
+      unit: minute
+
+  - description: Select mode "Dough", loaf size "1 lb"
+    cookTime:
+      amount: 4
+      unit: hour
+
+  - description: Set a rack in the oven. Preheat to 450F.
+    prepTime:
+      amount: 5
+      unit: minute
+
+  - description: Brush a baking dish with 1 tablespoon of oil
+    ingredients:
+      - item: Olive oil
+        amount: 1
+        unit: tbsp
+    equipment:
+      - item: 8x12x0.5 inch baking dish
+    prepTime:
+      amount: 1
+      unit: minute
+
+  - description: When cycle is done, place dough in prepared pan. Push dough to edges and cover with plastic wrap. Wait until dough doubles in size.
+    prepTime:
+      amount: 1
+      unit: hour # Guess
+
+  - description: With a fingertip, poke dimples at 1" intervals over dough. Drizzle remaining oil over top and sprinkle with coarse salt.
+    prepTime:
+      amount: 5
+      unit: minute
+
+  - description: Bake focaccia for 20-25 minutes until golden
+    cookTime:
+      amount: 25
+      unit: minute
+
+

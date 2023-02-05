@@ -1,0 +1,36 @@
+author: Dash Corporation
+recipe: Pizza Dough
+spec: v0.1.0
+tags: breadmaker
+servings: 4
+prelude:
+  description: Once complete, you can tightly wrap this in plastic wrap and place in the fridge for 36 hours.
+
+steps:
+  - description: Place all ingredients in baking pan
+    ingredients:
+      - item: Water, room temperature
+        amount: 1
+        unit: cup
+      - item: Extra Virgin Olive Oil
+        amount: 1.5
+        unit: tbsp
+      - item: Kosher salt
+        amount: 1.5
+        unit: tsp
+      - item: Bread flour or unbleached all-purpose flour
+        amount: 3.1875
+        unit: cup
+      - item: Active dry yeast
+        amount: 1 # One packet
+        unit: tsp
+    equipment:
+      - item: Dash Breadmaker
+    prepTime:
+      amount: 5
+      unit: minute
+
+  - description: Select mode "Dough"
+    cookTime:
+      amount: 4
+      unit: hour
