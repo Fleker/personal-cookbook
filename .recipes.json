@@ -19,6 +19,7 @@
         "hot-wassail": "hot-wassail.yaml",
         "jello-shots": "jelloshot.recipe.json",
         "microwave-omelet": "microwave-omelet.yaml",
+        "onion-skin-powder": "onion-skin-powder.yaml",
         "potato-candy": "potato.recipe.json",
         "savory-lasagna": "savory-lasagna.yaml",
         "stuffed-shells": "stuffed-shells.yaml",
@@ -106,6 +107,9 @@
             }, {
                 "key": "corn-sauce",
                 "label": "Hamburger Corn Sauce"
+            }, {
+                "key": "onion-skin-powder",
+                "label": "Onion Skin Powder"
             }]
         },
         "Bread Maker": {

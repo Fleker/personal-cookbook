@@ -1,0 +1,29 @@
+author: Green Goddess
+recipe: Onion Skin Powder
+spec: v0.1.0
+tags: spice
+servings: 4
+
+steps:
+  - description: Preheat oven to 150F
+    prepTime:
+      amount: 1
+      unit: minute
+
+  - description: Place onion skins on baking sheet and dry for 3 hours
+    ingredients:
+      - item: Onion skins
+        amount: 5
+        unit: cups
+    cookTime:
+      amount: 3
+      unit: hours
+  
+  - description: Crush dried skins by hand and blend
+    equipment:
+      - item: Blender
+    cookTime:
+      amount: 5
+      unit: minutes
+
+  - description: You can store these in an airtight container for six months
