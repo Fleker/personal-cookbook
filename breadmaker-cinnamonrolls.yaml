@@ -1,0 +1,135 @@
+author: Dash Corporation
+recipe: Iced Cinnamon Swirl Rolls
+spec: v0.1.0
+tags: breadmaker
+servings: 4
+
+sections:
+  - name: Dough
+    steps:
+      - description: Put in all the ingredients for the dough
+        prepTime:
+          amount: 5
+          unit: minute
+        ingredients:
+          - item: Reduced fat milk
+            amount: 0.5
+            unit: cup
+          - item: Large eggs, beaten
+            amount: 2
+          - item: Unsalted softened butter
+            amount: 4
+            unit: tbsp
+          - item: Sugar
+            amount: 0.333
+            unit: cup
+          - item: Salt
+            amount: 0.75
+            unit: tsp
+          - item: Pure vanilla extract
+            amount: 1
+            unit: tsp
+          - item: Bread flour (or unbleached all-purpose flour)
+            amount: 3
+            unit: cup
+          - item: Cornstarch
+            amount: 0.333
+            unit: cup
+          - item: Active dry yeast
+            amount: 1 # One packet
+            unit: tsp
+        equipment:
+          - item: Dash Breadmaker
+      - description: Set breadmaker to create Dough
+        cookTime:
+          amount: 4
+          unit: hour
+
+  - name: Cinnamon insert
+    steps:
+      - description: Combine brown sugar, granulated sugar, and cinnamon
+        ingredients:
+          - item: Brown sugar
+            amount: 0.333
+            unit: cup
+          - item: Granulated sugar
+            amount: 3
+            unit: tbsp
+          - item: Ground cinnamon
+            amount: 2
+            unit: tsp
+        equipment:
+          - item: Mixing bowl
+        prepTime:
+          amount: 3
+          unit: minute
+      - description: Transfer completed Dough to a work surface and punch down
+        prepTime:
+          amount: 5
+          unit: minute
+      - description: Divide dough into two equal pieces. Let dough sit, covered under plastic wrap, for twenty minutes.
+        prepTime:
+          amount: 2
+          unit: minute
+        cookTime:
+          amount: 20
+          unit: minute
+      - description: Preheat oven to 350F
+        equipment:
+          - item: Oven
+      - description: Brush a 13x9-inch baking dish with 1 tablespoon of melted butter
+        ingredients:
+          - item: Butter, melted
+            amount: 1
+            unit: tbsp
+        equipment:
+          - item: 13x9-inch baking dish
+      - description: Roll and pat each piece of dough in baking pan so it is half-an-inch thick. Brush melted butter and then sugar mixture.
+        prepTime:
+          amount: 3
+          unit: minute
+      - description: Roll dough tightly towards you. Pince on the long side to seal. Cut into nine smaller pieces.
+        equipment:
+          - item: Serated knife
+        prepTime:
+          amount: 3
+          unit: minute
+      - description: Stand pieces in pan. Cover with plastic wrap and let sit until rolls double in size, about thirty minutes.
+        cookTime:
+          amount: 30
+          unit: minute
+        equipment:
+          - item: Plastic wrap
+      - description: Bake for 25 to 30 minutes, until golden brown. Then let set on a cooling rack.
+        cookTime:
+          amount: 60
+          unit: minute
+
+  - name: Sweet icing
+    steps:
+      - description: Combine confectioner's sugar, butter, vanilla, and lemon juice into bowl
+        ingredients:
+          - item: Confectioner's Sugar
+            amount: 1
+            unit: cup
+          - item: Butter, very soft
+            amount: 1.5
+            unit: tbsp
+          - item: Pure vanilla extract
+            amount: 0.5
+            unit: tsp
+          - amount: 0.25
+            item: Lemon juice
+            unit: tsp
+      - description: Add milk slowly, a bit at a time, until mixture is smooth
+        ingredients:
+          - item: Reduced fat milk
+            amount: 4
+            unit: tsp
+        prepTime:
+          amount: 5
+          unit: minute
+      - description: Drizzle the icing over the rolls. Leave rolls in pan until icing sets. Then serve or cover in plastic wrap.
+        cookTime:
+          amount: 1
+          unit: hour

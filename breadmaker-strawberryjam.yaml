@@ -1,0 +1,39 @@
+author: Dash Corporation
+recipe: Strawberry Jam
+spec: v0.1.0
+tags: breadmaker
+servings: 4
+
+steps:
+  - description: Pulse the strawberries until coarsely chopped
+    ingredients:
+      - item: Strawberries, halved
+        amount: 4
+        unit: cup
+    equipment:
+      - item: Food processor
+  - description: Place all ingredients in baking pan
+    ingredients:
+      - item: Sugar
+        amount: 1
+        unit: cup
+      - item: Powdered fruit pectin
+        amount: 4
+        unit: tbsp
+      - item: Lemon juice
+        amount: 1
+        unit: tbsp
+    equipment:
+      - item: Dash Breadmaker
+    prepTime:
+      amount: 5
+      unit: minute
+  - description: Select mode "Jam"
+    cookTime:
+      amount: 4
+      unit: hour
+  - description: Let cool in pan for half an hour
+    cookTime:
+      amount: 30
+      unit: minute
+  - description: Spoon preserves into clean jars. Cool completely on counter, then cover. Store in fridge for up to three weeks.

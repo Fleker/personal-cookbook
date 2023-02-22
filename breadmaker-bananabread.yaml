@@ -1,0 +1,51 @@
+author: Dash Corporation
+recipe: Banana Walnut Bread
+spec: v0.1.0
+tags: breadmaker
+servings: 4
+
+steps:
+  - description: Place all ingredients in baking pan
+    ingredients:
+      - item: Buttermilk
+        amount: 0.5
+        unit: cup
+      - item: Unsalted butter
+        amount: 8
+        unit: tbsp
+      - item: Large eggs
+        amount: 2
+      - item: Pure vanilla extract
+        amount: 1
+        unit: tsp
+      - item: Ripe bananas
+        amount: 3
+      - item: Kosher salt
+        amount: 0.75
+        unit: tsp
+      - item: Sugar
+        amount: 1
+        unit: cup
+      - item: Unbleached all-purpose flour
+        amount: 2
+        unit: cup
+      - item: Baking soda
+        amount: 1
+        unit: tsp
+      - item: Baking powder
+        amount: 0.75
+        unit: tsp
+      - item: Walnuts, coarsely chopped
+        amount: 0.67
+        unit: cup
+    equipment:
+      - item: Dash Breadmaker
+    prepTime:
+      amount: 5
+      unit: minute
+
+  - description: Select mode "Cake", color "Medium", loaf size "1.5 lb"
+    cookTime:
+      amount: 4
+      unit: hour
+  - description: Note! Make sure to check batter periodicaly to ensure things don't get stuck to the side of the pan.

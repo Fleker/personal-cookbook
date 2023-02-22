@@ -9,6 +9,10 @@
         "breadmaker-focaccia": "breadmaker-focaccia.yaml",
         "breadmaker-pizza": "breadmaker-pizza.yaml",
         "breadmaker-margherita": "breadmaker-margherita.yaml",
+        "breadmaker-cinnamonrolls": "breadmaker-cinnamonrolls.yaml",
+        "breadmaker-strawberryjam": "breadmaker-strawberryjam.yaml",
+        "breadmaker-pear": "breadmaker-pear.yaml",
+        "breadmaker-banana": "breadmaker-banana.yaml",
         "corn-sauce": "corn-sauce.yaml",
         "creme-brulee": "creme-brulee.recipe.json",
         "crepe": "sweet-crepe.yaml",
@@ -137,6 +141,18 @@
             }, {
                 "key": "breadmaker-margherita",
                 "label": "Margherita Pizza"
+            }, {
+                "key": "breadmaker-cinnamonrolls",
+                "label": "Iced Cinnamon Swirl Rolls"
+            }, {
+                "key": "breadmaker-strawberryjam",
+                "label": "Strawberry Jam"
+            }, {
+                "key": "breadmaker-pear",
+                "label": "Ginger Pear Preserves"
+            }, {
+                "key": "breadmaker-banana",
+                "label": "Banana Walnut Bread"
             }]
         }
     }

@@ -1,0 +1,47 @@
+author: Dash Corporation
+recipe: Strawberry Jam
+spec: v0.1.0
+tags: breadmaker
+servings: 4
+
+steps:
+  - description: Place lemon juice into bowl. Peel and chop pears into small pieces and place in bowl.
+    ingredients:
+      - item: Bartlett Pears
+        amount: 4
+      - item: Lemon juice
+        amount: 1
+        unit: tbsp
+    equipment:
+      - item: Mixing bowl
+  - description: Place all ingredients in baking pan
+    ingredients:
+      - item: Sugar
+        amount: 1
+        unit: cup
+      - item: Powdered fruit pectin
+        amount: 0.25
+        unit: cup
+      - item: Fresh grated ginger
+        amount: 1
+        unit: tsp
+      - item: Finely chopped candied ginger
+        amount: 2
+        unit: tbsp
+      - item: Salt
+        amount: 0.125
+        unit: tsp
+    equipment:
+      - item: Dash Breadmaker
+    prepTime:
+      amount: 5
+      unit: minute
+  - description: Select mode "Jam"
+    cookTime:
+      amount: 4
+      unit: hour
+  - description: Let cool in pan for half an hour
+    cookTime:
+      amount: 30
+      unit: minute
+  - description: Spoon preserves into clean jars. Cool completely on counter, then cover. Store in fridge for up to three weeks.
