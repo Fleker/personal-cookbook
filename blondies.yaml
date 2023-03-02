@@ -1,0 +1,90 @@
+# https://www.southernliving.com/recipes/best-brown-butter-blondies?utm_source=twitter.com&utm_medium=social&utm_campaign=southernliving_southernliving&utm_content=video&utm_term=20230222
+author: Southern Living
+recipe: Best Brown Butter Blondies
+spec: v0.1.0
+tags: dessert
+servings: 20
+
+steps:
+  - description: Cook butter in saucepan until it melts and turns brown
+    ingredients:
+      - item: Butter
+        amount: 1.5
+        unit: cup
+    equipment:
+      - item: Saucepan
+    cookTime:
+      amount: 10
+      unit: minute
+
+  - description: Let cool in a large metal bowl
+    equipment:
+      - item: Large metal bowl
+    cookTime:
+      amount: 20
+      unit: minute
+
+  - description: Preheat oven to 350F
+
+  - description: Coat 9-inch square baking pan with cooking spray and parchment paper
+    equipment:
+      - item: Cooking spray
+      - item: Parchment paper
+      - item: 9-Inch Square Baking Pan
+
+  - description: Add granulated sugar and brown sugar to melted buter. Whisk until smooth.
+    ingredients:
+      - item: Granulated sugar
+        amount: 1
+        unit: cup
+      - item: Brown sugar
+        amount: 0.5
+        unit: cup
+    equipment:
+      - item: Whisk
+    prepTime:
+      amount: 3
+      unit: minute
+
+  - description: Add eggs and vanilla, whisking together until integrated
+    ingredients:
+      - item: Large Eggs
+        amount: 3
+      - item: Vanilla Extract
+        unit: tsp
+        amount: 2
+    prepTime:
+      amount: 3
+      unit: minute
+
+  - description: Add flour and salt. Fold together using rubber spatula until integrated.
+    ingredients:
+      - item: Flour
+        unit: cup
+        amount: 2.25
+      - item: Kosher salt
+        unit: tsp
+        amount: 1.5
+    prepTime:
+      amount: 3
+      unit: minute
+
+  - description: Fold in chopped chocolate
+    ingredients:
+      - item: 4-ounce Bittersweet chocolate bars, chopped
+        amount: 2
+    prepTime:
+      amount: 1
+      unit: minute
+
+  - description: Pour mix into baking pan. Bake until wooden pick is clean (45 minutes)
+    cookTime:
+      amount: 45
+      unit: minute
+
+  - description: Cool on wire rack until cool, about an hour
+    cookTime:
+      amount: 1
+      unit: hour
+
+  - description: Cut into squares. You can store in an airtight container for three days.

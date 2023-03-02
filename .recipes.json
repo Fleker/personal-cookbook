@@ -1,6 +1,7 @@
 {
     "recipes": {
         "bacon-dressing": "bacon-dressing.json",
+        "blondies": "blondies.yaml",
         "breadmaker-white": "breadmaker-white.yaml",
         "breadmaker-french": "breadmaker-french.yaml",
         "breadmaker-wheat": "breadmaker-wheat.yaml",
@@ -84,6 +85,9 @@
             }, {
                 "key": "tiramisu",
                 "label": "Tiramisu"
+            }, {
+                "key": "blondies",
+                "label": "Brown Butter Blondies"
             }]
         },
         "Party": {
