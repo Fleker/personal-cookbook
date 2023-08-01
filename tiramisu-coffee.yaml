@@ -1,0 +1,40 @@
+author: TikTok
+recipe: Tiramisu Cold Brew
+spec: v0.1.0
+tags: coffee, dessert
+servings: 1
+
+steps:
+  - description: Froth the milk, marscapone, and sugar syrup until thick but pourable.
+    ingredients:
+      - item: milk
+        amount: 2
+        unit: tbsp
+      - item: Marscapone
+        amount: 2
+        unit: tbsp
+      - item: Sugar Syrup (1:1)
+        amount: 1
+        unit: tbsp
+    cookTime:
+      amount: 3
+      unit: minute
+
+  - description: Pour the cold brew over ice into a glass.
+    ingredients:
+      - item: Coffee
+        amount: 8
+        unit: ounces
+    equipment:
+      - item: Glass
+    cookTime:
+      amount: 1
+      unit: minute
+
+  - description: Pour the foam on top and dust on some cocoa.
+    ingredients:
+      - item: Cocoa powder
+        amount: 1
+        unit: teaspoon
+
+  - description: You can drink as is, but it tastes great if you stir everything together.

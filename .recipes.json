@@ -30,6 +30,7 @@
         "stuffed-shells": "stuffed-shells.yaml",
         "sweet-bbq-sauce": "sweet-bbq-sauce.yaml",
         "tiramisu": "tiramisu.yaml",
+        "tiramisu-coffee": "tiramisu-coffee.yaml",
         "vanilla-whiskey": "vanilla-whiskey.yaml"
     },
     "collections": {
@@ -49,6 +50,9 @@
             }, {
                 "key": "hot-wassail",
                 "label": "Non-Spirited Wassail"
+            }, {
+                "key": "tiramisu-coffee",
+                "label": "Tiramisu Cold Brew"
             }]
         },
         "Appetizer": {
